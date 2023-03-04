@@ -23,7 +23,7 @@ function Dropdown({
         }}
       >
         <p>{placeholder}</p>
-        <img src="src\assets\images\dropdown.png" alt="" />
+        <img src="/dropdown.png" alt="" />
       </div>
       <div className={isVisible ? "select__list" : "hide"}>
         {data.map((data, i) => {

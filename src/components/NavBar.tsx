@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <div className="navbar">
       <a href="#" className="logo__container">
-        <img src="src\assets\images\brand_logo.png" alt="logo" />
+        <img src="/brand_logo.png" alt="logo" />
       </a>
       <div className="nav__items">
         <ul>
@@ -15,8 +15,7 @@ function NavBar() {
           </a>
 
           <div className="nav__item">
-            Our Communities{" "}
-            <img src="src\assets\images\dropdown_filled.png" alt="" />
+            Our Communities <img src="/dropdown_filled.png" alt="" />
           </div>
           <div
             className="nav__item relative"
@@ -24,8 +23,7 @@ function NavBar() {
               setIsOpen(!isOpen);
             }}
           >
-            Election Data{" "}
-            <img src="src\assets\images\dropdown_filled.png" alt="" />
+            Election Data <img src="/dropdown_filled.png" alt="" />
             <div className={!isOpen ? "nav__dropList close" : "nav__dropList"}>
               <p>Election Day Live Updates</p>
               <p>Post Election Analysis</p>

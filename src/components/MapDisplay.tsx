@@ -6,11 +6,7 @@ function MapDisplay() {
   const [showDetails, setShowDetails] = useState<boolean>(false);
   return (
     <div className="mapDisplay">
-      <img
-        src="src\assets\images\big_ng_map.png"
-        alt="nigeria map"
-        className="map"
-      />
+      <img src="/big_ng_map.png" alt="nigeria map" className="map" />
       <div
         className="hoverArea"
         onMouseEnter={() => {
@@ -46,10 +42,10 @@ function MapDisplay() {
       </div>
       <div className="map__controls">
         <div className="map__btn">
-          <img src="src\assets\images\plus.png" alt="" />
+          <img src="/plus.png" alt="" />
         </div>
         <div className="map__btn">
-          <img src="src\assets\images\minus.png" alt="" />
+          <img src="/minus.png" alt="" />
         </div>
       </div>
 

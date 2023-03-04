@@ -6,7 +6,7 @@ function Footer() {
     <div className="footer">
       <div className="footer__address">
         <a href="#">
-          <img src="src\assets\images\brand_logo.png" alt="" />
+          <img src="/brand_logo.png" alt="" />
         </a>
         <p>Isale Eko Avenue, Dolphin Estate, Ikoyi, Lagos, Nigeria</p>
         <p>© 2022 Hernalytics</p>
@@ -31,13 +31,13 @@ function Footer() {
           <p>+234 801 234 5678</p>
           <div className="social__links">
             <a href="#" className="link">
-              <img src="src\assets\images\instagramm.png" alt="instagram" />
+              <img src="/instagramm.png" alt="instagram" />
             </a>
             <a href="#" className="link">
-              <img src="src\assets\images\twitter.png" alt="instagram" />
+              <img src="/twitter.png" alt="twitter" />
             </a>
             <a href="#" className="link">
-              <img src="src\assets\images\watsapp.png" alt="instagram" />
+              <img src="/watsapp.png" alt="whatsapp" />
             </a>
           </div>
         </div>

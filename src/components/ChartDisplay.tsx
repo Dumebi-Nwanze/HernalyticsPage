@@ -6,12 +6,12 @@ function ChartDisplay() {
   return (
     <div className="chartDisplay">
       <div className="pieChart__container">
-        <img src="src\assets\images\donut_chart.png" alt="donutchart" />
+        <img src="/donut_chart.png" alt="donutchart" />
       </div>
       <div className="map__container">
         <div className="map__image">
           <p>CANDIDATES BY GEOPOLITICAL ZONES</p>
-          <img src="src\assets\images\ng 1.png" alt="" />
+          <img src="/ng 1.png" alt="" />
         </div>
         <div className="legends">
           {zones.map((zone, i) => {
